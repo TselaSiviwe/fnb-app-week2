@@ -1,15 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css"
+    <meta charset="UTF-8">
+    <title>Marvel Character Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #0b0c10;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery a img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery a img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+        }
+    </style>
 </head>
 <body>
+
     <div class="gallery">
-        <a href="captainM.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\captain_marvel_poster_1688.webp" /></a>
-       <a href="thor.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\thor.png"/></a>
-       <a href="iron.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\iron.jpg"/></a>
-       <a href="black.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\Chadwick-Boseman-Tchalla-Black-Panther-Black.webp"/></a>
-       <a href="hulk.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\hulk.jpg"/></a>
-       <a href="captainA.html"> <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\Sam_Wilson_Infobox.webp"/></a>
+        <a href="captainM.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\captain_marvel_poster_1688.webp" alt="Captain Marvel">
+        </a>
+        <a href="thor.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\thor2.jpg" alt="Thor">
+        </a>
+        <a href="iron.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\iron2.webp" alt="Iron Man">
+        </a>
+        <a href="black.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\Chadwick-Boseman-Tchalla-Black-Panther-Black.webp" alt="Black Panther">
+        </a>
+        <a href="hulk.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\hulk.jpg" alt="Hulk">
+        </a>
+        <a href="captainA.html">
+            <img src="C:\Users\HP\OneDrive\Desktop\fnb app of the year\week2\pics\Sam_Wilson_Infobox.webp" alt="Captain America (Sam)">
+        </a>
     </div>
+
 </body>
 </html>
